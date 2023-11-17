@@ -2,12 +2,19 @@
 
 ## Installing PlantUML
 1. Open a Command Prompt as Admin.
-2. Use the following command to intall Chocolatey. If Chocolatey is already installed, the command will fail: `@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"`
-3. Use the following command to intall PlantUML: `choco install plantuml`
+2. Use the following command to intall Chocolatey. If Chocolatey is already installed, the command will fail: 
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+4. Use the following command to intall PlantUML:
+```
+choco install plantuml
+```
 
 ## VSCode setup
-1. Navigate to the extensions (Ctrl+Shift+X) and search for "PlantUML". Alternatively, launch VS Code Quick Open (Ctrl+P), paste the following command: `ext install plantuml`, and press enter.
-2. Install the PlantUML extension by jebbs.
+1. Navigate to the extensions (Ctrl+Shift+X) and search for "PlantUML". Alternatively, launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
+```ext install plantuml```
+3. Install the PlantUML extension by jebbs.
 
 ## Getting started
 1. Create a new file with the *.wsd, *.pu, *.puml, *.plantuml, or *.iuml format.
