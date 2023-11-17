@@ -13,8 +13,8 @@
 ### Error: Path to the Graphviz Install Exe not found
 A common error that occurs when installing PlantUML using Chocolatey is depicted in the image below:\
 ![Screenshot 2023-11-16 102020 cropped](https://github.com/SjoerdDevelops/vscode-setup-for-unity-development/assets/146742966/6ab74ef8-145d-42ed-852e-c593774eb9bc)
-This error may indicate that the downloaded files for Graphviz are removed by security software. \\
-to resolve the issues, manually install the required Graphviz version:
+This error may indicate that the downloaded files for Graphviz are removed by security software. \
+To resolve the issues, manually install the required Graphviz version:
 1. Navigate to `https://graphviz.org/download/`
 2. Download the EXE Installer, e.g. `graphviz-9.0.0 (64-bit) EXE installer [sha256]`
 3. Install Graphviz through the downloaded EXE Installer.
