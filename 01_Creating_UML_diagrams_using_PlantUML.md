@@ -11,12 +11,31 @@
 choco install plantuml
 ```
 
-## VSCode setup
+## Setting up PlantUML in VS Code
+### Installing the PlantUML extention
 1. Navigate to the extensions (Ctrl+Shift+X) and search for "PlantUML". Alternatively, launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
 ```ext install plantuml```
-3. Install the PlantUML extension by jebbs.
+2. Install the PlantUML extension by jebbs.
 
-## Getting started
+The plugin for VS code has an integrated copy of plantuml.jar and Graphviz, so you are normally good to go. However, it also requires Java to run PlantUML. 
+If you don't have Java installed, perform the following steps:
+1. Navigate to the [Java Download page](https://www.java.com/en/download/manual.jsp).
+2. Download the version corresponding with your operating system (e.g. "Windows Online").
+3. Install Java using the downloaded installer.
+4. if after you've installed Java it still prompts "java not installed", please add java bin path to the PATH environment variable.
+
+Alternatively, you can download the latest plantuml.jar or install it using choco as shown below:
+1. Open a Command Prompt as Admin.
+2. Use the following command to intall Chocolatey. If Chocolatey is already installed, the command will fail: 
+```
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+```
+3. Use the following command to intall PlantUML:
+```
+choco install plantuml
+```
+Note that sometimes an error occurs 
+## Using the PlantUML extention
 1. Create a new file with the *.wsd, *.pu, *.puml, *.plantuml, or *.iuml format.
 2. Start creating your UML diagram. For reference, check [PlantUML Language Reference Guide](https://plantuml.com/guide).
 3. Press Alt+D to start the PlantUML Preview Diagram to see the resulting diagram. 
