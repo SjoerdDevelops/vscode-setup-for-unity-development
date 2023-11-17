@@ -16,7 +16,7 @@ A common error that occurs when installing PlantUML using Chocolatey is depicted
 This error may indicate that the downloaded files for Graphviz are removed by security software. \
 To resolve the issues, manually install the required Graphviz dependecy:
 1. Navigate to `https://graphviz.org/download/`
-2. Download the EXE Installer for the required graphviz version, e.g. `graphviz-9.0.0 (64-bit) EXE installer [sha256]`
+2. Download the EXE Installer for the required Graphviz version, e.g. `graphviz-9.0.0 (64-bit) EXE installer [sha256]`
 3. Install Graphviz through the downloaded EXE Installer.
 
 ### Unstested
