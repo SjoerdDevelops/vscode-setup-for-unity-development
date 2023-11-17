@@ -8,6 +8,12 @@
 
 ## Getting started
 1. Create a new file with the *.wsd, *.pu, *.puml, *.plantuml, or *.iuml format.
+2. Start creating your UML diagram. For reference, check [PlantUML Language Reference Guide](https://plantuml.com/guide).
+3. Press Alt+D to start the PlantUML Preview Diagram to see the resulting diagram. 
+
+Some useful features of the Diagram Preview:
+- It auto updates whenever the contents of the file change.
+- You can pan and zoom using common mouse, keyboard, and touchpad inputs.
 
 ## Troubleshooting
 ### Error: Path to the Graphviz Install Exe not found
