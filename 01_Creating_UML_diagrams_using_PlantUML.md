@@ -5,7 +5,8 @@
 1. Navigate to the extensions (Ctrl+Shift+X) and search for "PlantUML". Alternatively, launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
 ```ext install plantuml```
 2. Install the PlantUML extension by jebbs.
-
+3. 
+### Installing dependencies
 The plugin for VS code has an integrated copy of plantuml.jar and Graphviz, so you are normally good to go. However, it also requires Java to run PlantUML. 
 If you don't have Java installed, perform the following steps:
 1. Navigate to the [Java Download page](https://www.java.com/en/download/manual.jsp).
