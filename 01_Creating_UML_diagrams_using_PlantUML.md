@@ -1,5 +1,5 @@
 # Creating UML diagrams in VSCode using PlantUML
-
+---
 ## Setting up PlantUML in VS Code
 ### Installing the PlantUML extention
 1. Navigate to the extensions (Ctrl+Shift+X) and search for "PlantUML". Alternatively, launch VS Code Quick Open (Ctrl+P), paste the following command, and press enter:
@@ -24,12 +24,14 @@ Alternatively, you can download the latest plantuml.jar or install it using choc
 choco install plantuml
 ```
 #### Troubleshooting
-When installing PlantUML using choco, sometimes an error occurs that states that the path to the Graphviz EXE Installer cannot be found (see image), possibly because it was removed by antivirus.\
+When installing PlantUML using choco, sometimes an error occurs that states that the path to the Graphviz EXE Installer cannot be found (see image), possibly because it was removed by antivirus.  
 ![Screenshot 2023-11-16 102020 cropped](https://github.com/SjoerdDevelops/vscode-setup-for-unity-development/assets/146742966/6ab74ef8-145d-42ed-852e-c593774eb9bc)
 To resolve the issues, manually install the required Graphviz dependecy:
 1. Navigate to `https://graphviz.org/download/`
 2. Download the EXE Installer for the required Graphviz version, e.g. `graphviz-9.0.0 (64-bit) EXE installer [sha256]`
 3. Install Graphviz through the downloaded EXE Installer.
+
+---
 ## Using the PlantUML extention
 1. Create a new file with the *.wsd, *.pu, *.puml, *.plantuml, or *.iuml format.
 2. Start creating your UML diagram. For reference, check [PlantUML Language Reference Guide](https://plantuml.com/guide).
@@ -38,8 +40,4 @@ To resolve the issues, manually install the required Graphviz dependecy:
 Some useful features of the Diagram Preview:
 - It auto updates whenever the contents of the file change.
 - You can pan and zoom using common mouse, keyboard, and touchpad inputs.
-
-## Troubleshooting
-### Error: Path to the Graphviz Install Exe not found
-A common error that occurs when installing PlantUML using Chocolatey is depicted in the image below:\
 
